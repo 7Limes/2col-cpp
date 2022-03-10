@@ -4,7 +4,18 @@ See [here](https://github.com/7Limes/2col-python/tree/main/examples) for example
 
 A minimal stack oriented language where each line contains only 2 columns.
 
-## Commands:
+## Running
+Use tc_interpret() to interpret a 2col script:
+
+```cpp
+#include "twocol.hpp"
+
+int main() {
+  tc_interpret("script.2c", true);
+}
+```
+
+## Commands
 Each command is formatted as `[command] [value]`
 
 s[0] refers to the first value of the stack (the one on top), and s[1] refers to the second value.
