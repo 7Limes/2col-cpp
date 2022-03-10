@@ -1,3 +1,6 @@
+// By Miles Burkart
+// 3-10-22
+
 #include <iostream>
 #include <stdio.h>
 #include <string>
@@ -265,10 +268,7 @@ void tc_interpret(string file, bool debug=false) {
         break;
       
     }
-    //cout << lineNum << " " << cmd << " " << value << " ";
-    //print_vec(stack);
-    //int i;
-    //cin >> i;
+    
     lineNum++;
   }
   if (debug) {
